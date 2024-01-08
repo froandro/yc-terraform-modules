@@ -11,7 +11,7 @@ resource "yandex_resourcemanager_folder_iam_member" "this" {
   for_each = var.name_service_account
 
   folder_id = var.folder
-  role      = var.service_account_role
+  role      = var.role_service_account
   member    = "serviceAccount:${data.yandex_iam_service_account.yc-service-account[each.value].id}"
 }
 

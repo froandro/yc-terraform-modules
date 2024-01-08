@@ -29,9 +29,9 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_folder"></a> [folder](#input\_folder) | Folder ID | `string` | `"<Your ID Folder>"` | no |
-| <a name="input_name_service_account"></a> [name\_service\_account](#input\_name\_service\_account) | Name service account | `set(string)` | <pre>[<br>  "service-account1",<br>  "service-account2"<br>]</pre> | no |
-| <a name="input_service_account_role"></a> [service\_account\_role](#input\_service\_account\_role) | Role service account | `string` | `"editor"` | no |
+| <a name="input_folder"></a> [folder](#input\_folder) | Folder ID | `string` | `"<Your ID Folder>"` | yes |
+| <a name="input_name_service_account"></a> [name\_service\_account](#input\_name\_service\_account) | Name service account | `set(string)` | <pre>[<br>  "service-account1",<br>  "service-account2"<br>]</pre> | yes |
+| <a name="input_service_account_role"></a> [service\_account\_role](#input\_service\_account\_role) | Role service account | `string` | `"editor"` | yes |
 
 ## Outputs
 
