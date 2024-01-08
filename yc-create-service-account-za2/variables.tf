@@ -1,9 +1,8 @@
 variable "folder" { 
   type        = string
-  default     = "b1gsd1tj5k2ia1pobrj4"
+  default     = "<Your ID Folder>"
   description = "Folder ID"
 
-  sensitive = true
 }
 
 variable "name_service_account" { 
