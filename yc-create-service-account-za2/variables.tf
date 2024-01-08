@@ -1,6 +1,6 @@
 variable "folder" { 
   type        = string
-  default     = "<Your ID Folder>"
+  default     = "b1gsd1tj5k2ia1pobrj4"
   description = "Folder ID"
 
 }
@@ -11,7 +11,7 @@ variable "name_service_account" {
   description = "Name service account"
 }
 
-variable "service_account_role" {
+variable "role_service_account" {
   type = string
   default = "editor" # The list of available roles on https://cloud.yandex.com/en/docs/iam/concepts/access-control/roles
   description = "Role service account"
